@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon shortcut" href="favicon1.ico" type="image/x-icon">
-    <title>Dice-Game🏆</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-    
-
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon shortcut" href="favicon1.ico" type="image/x-icon">
+        <title>Dice Game 🏆</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    </head>
+    <body>
     <div class="container">
-      
-      <h1 class="who">Dice Game</h1>
 
-      
+        <div class="topbox">
+            <h1 class="who">Dice Game</h1>
+        </div>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="./images/dice1.png">
-      </div>
+        <div class="dicebox">
+            <div class="dice">
+                <p>Player 1</p>
+                <img class="img1" src="./images/dice1.png">
+            </div>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="./images/dice2.png">
-      </div>
+            <div class="dice">
+                <p>Player 2</p>
+                <img class="img2" src="./images/dice2.png">
+            </div>
+        </div>
+
+        <div class="btn-roll">
+            <button class="blu-btn" id="roll" onclick="reset()">Roll the dice</button>
+        </div>
 
     </div>
 
-    <div class="btn-roll">
-<button class="blu-btn" id="roll" onclick="reset()" >Roll the dice</button>
-    </div>
+    <script src="index.js"></script>
 
- <script src="index.js"></script>
+    </body>
 
-  </body>
+    <footer>
+        <p class="copyright">➡ smsadi ©️</p>
+    </footer>
 
-  <footer>
-    ➡ smsadi ©️
-  </footer>
 </html>
